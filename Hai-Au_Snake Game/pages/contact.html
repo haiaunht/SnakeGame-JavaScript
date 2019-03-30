@@ -1,0 +1,53 @@
+<!doctype html>
+<!---------------Hai-Au Bui, Group 7---------------->
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<title>Group Project</title>
+		<link rel ="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+	<div id= "contact">
+		<header>
+			<h1 id="passingtime">PASSING TIME</h1>
+			<nav>
+				<ul>
+					<li><a href="../index.html" >Home</a></li>
+					<li><a href="haiau.html">Snake Game</a></li>
+					<li><a href="contact.html" class="current">Feed Back</a></li>
+				</ul>
+			</nav>
+		</header>
+			<main>
+				<section class="sectionHeader">
+					<h2 style="color: white" >Feel free to send us helpful feedback</h2>
+					<form method="post" id="contactForm" action=".../scripts/contact.php">
+					<fieldset class="personal">
+					<legend>Helpfulness</legend>
+						<label for="name">Name:</label>
+							<input type="text" name="name" id="name" autofocus  size="20" maxlength="30" required><br>
+						<label for="action">Reactions:</label>
+							<select name="action" id="action">
+								<option>Choose one</option>
+								<option value="Good Job">Good Job</option>
+								<option value="Nice">Nice</option>
+								<option value="almost">Almost!</option>
+							</select><br>
+						<label for="email">Email:</label>
+							<input type="email" name="email" id="email" size="30" maxlength="60" >	<br>		
+						<label for="comments">Comments:</label><br>
+							<textarea name="comments" id="comments" cols="25" rows="10" ></textarea> 
+							</fieldset>
+						<input type="submit" name="submit" id="submit" value="Send!">
+						<input type="reset" name="reset" id="reset" value="Clear!">
+					</form>
+				</section>
+			</main>
+		<footer>
+			<section>
+				<p>&copy; Copyright 2018. LWTC. Hai-Au B. All rights reserved.</p>
+			</section>
+		</footer>
+	</div>
+</body>
+</html>
